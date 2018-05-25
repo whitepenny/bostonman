@@ -1,0 +1,41 @@
+{
+  "name": "htdocs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitepenny/bostonman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whitepenny/bostonman/issues"
+  },
+  "homepage": "https://github.com/whitepenny/bostonman#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.5.1",
+    "del": "^3.0.0",
+    "formstone": "^1.4.7",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.3",
+    "gulp-svg-sprites": "^4.1.2",
+    "gulp-uglify": "^3.0.0",
+    "postcss-color-function": "^4.0.1",
+    "postcss-import": "^11.1.0",
+    "postcss-mixins": "^6.2.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-simple-vars": "^4.1.0"
+  }
+}
