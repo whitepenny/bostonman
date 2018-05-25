@@ -1,0 +1,21 @@
+$headingFont: 'Open Sans', sans-serif;
+$bodyFont: 'Open Sans', sans-serif;
+$alternateFont: 'Open Sans', sans-serif;
+$mainColor: #6DDA2A;
+$secondaryColor: #C5000D;
+$backgroundColor: #F7F6F6;
+$borderColor: #E6E6E6;
+
+$phoneSize: 768px;
+$tabletSize: 992px;
+
+@font-face{ 
+    font-family: 'ssstandard';
+    src: url('./fonts/ssstandard/ss-standard.eot');
+    src: url('./fonts/ssstandard/ss-standard.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/ssstandard/ss-standard.woff') format('woff'),
+         url('./fonts/fonts/ssstandard/ss-standard.ttf') format('truetype'),
+         url('./fonts/ssstandard/ss-standard.svg#webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

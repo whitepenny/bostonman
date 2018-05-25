@@ -1,0 +1,33 @@
+body {
+    background: #555;
+}
+
+.splash-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    min-height: 400px;
+}
+
+.splash-content {
+    max-width: 600px;
+    text-align: center;
+    padding: 2.0rem;
+    
+    h1 {
+        @mixin bravo;
+    }
+}
+
+.splash-logo {
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto 7.0rem auto;
+}
+
